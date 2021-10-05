@@ -1,0 +1,150 @@
+body {
+  width: 100%;
+  background-color: #cacccf57;
+}
+
+header {
+  background-color: #cacccf57;
+  display: flex;
+}
+
+.logo {
+  width: 221px;
+  height: 67px;
+  padding: 10px 0 10px 80px;
+  align-items: center;
+}
+
+.logo-parent {
+  width: 50%;
+}
+
+.social-links-parent {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.social-links {
+  text-decoration: none;
+  padding: 0 20px 10px 20px;
+}
+
+nav {
+  width: 100%;
+  height: 45px;
+  background-color: #117bd4;
+  display: flex;
+}
+
+.nav-links-parent {
+  width: 60%;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  padding: 0px 25px;
+  color: antiquewhite;
+}
+
+.search-parent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+  width: 40%;
+  justify-items: end;
+}
+
+.add-to-cart {
+  border: none;
+  border-radius: 5px;
+  background-color: #117bd4;
+  margin-top: 3%;
+  padding: 5px 15px;
+  color: beige;
+  font-size: 13px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 24px 0px 30px 24px;
+}
+
+.card {
+  width: 400px;
+  height: auto;
+  padding: 24px 0px 30px 24px;
+  border: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img-top {
+  width: 92.2px;
+  height: 200px;
+}
+
+.card-body {
+  width: 252.2px;
+  padding: 24px 0 30px 24px;
+}
+
+.list-tag {
+  color: grey;
+  font-size: 12px;
+}
+
+.footer-container {
+  width: 100%;
+  border: none;
+  display: flex;
+  /* border: 2px solid red; */
+  margin-bottom: 1% 0 0 0;
+  padding: 24px 14px;
+  background-color: #212121;
+}
+
+.footer-sec-1 {
+  width: 65%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 24px 14px;
+}
+
+.footer-sec-2 {
+  /* border: 2px solid orange; */
+  width: 35%;
+  display: flex;
+  align-content: center;
+}
+
+.footer-list {
+  font-size: 13px;
+  color: aquamarine;
+}
+
+.footer-address {
+  font-size: 13px;
+  text-align: end;
+  color: aquamarine;
+}
+
+.footer-2 {
+  text-align: center;
+  color: antiquewhite;
+  height: auto;
+  border-top: 0.2px solid #454d5e;
+
+  padding: 10px 20px 10px 20px;
+  background-color: #212121;
+}

@@ -1,0 +1,106 @@
+body {
+  position: absolute;
+  margin: 0;
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 2000px;
+  background-color: white;
+}
+
+header {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #cacccf57;
+  display: flex;
+}
+
+.logo {
+  width: 221px;
+  height: 67px;
+  padding: 10px 0 10px 80px;
+  align-items: center;
+}
+
+.logo-parent {
+  width: 50%;
+}
+
+.social-links-parent {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header div a {
+  text-decoration: none;
+  padding: 0 20px 10px 20px;
+}
+
+nav {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #117bd4;
+  display: flex;
+}
+
+nav div {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+nav div a {
+  text-decoration: none;
+  padding: 0px 25px;
+  color: antiquewhite;
+}
+
+.search-parent {
+  justify-content: flex-end;
+  padding-right: 30px;
+  width: 40%;
+  justify-items: end;
+}
+
+main div p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: teal;
+}
+
+main div > p{
+    font-size: 19px;
+    color: violet;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main div + p{
+    font-size: 22px;
+    color: chocolate;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+main div ~ p{
+    font-size: 25px;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer div{
+    position: fixed;
+    bottom: 0;
+
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
