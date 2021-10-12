@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Voting</title>
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="navbar">
+            <a href="../html/sort.html">sort</a>
+            <a href="../html/stringCap.html">string Cap</a>
+            <a href="../html/voting.html">Voting</a>
+            <a href="../html/ROI.html">ROI</a>
+            <a href="../html/reverseSrring.html">Reverse string</a>
+            <a href="../html/random.html">Random</a>
+        </div>
+    </nav>
+    <input type="date" id="txtDOB" />
+    <button id="btnCalculate" onclick="fnCalculateAge();">Check eligiblity</button>
+    <script>
+        function fnCalculateAge() {
+
+            var userDateinput = document.getElementById("txtDOB").value;
+            console.log(userDateinput);
+
+
+            var birthDate = new Date(userDateinput);
+            console.log(" birthDate" + birthDate);
+
+
+            var difference = Date.now() - birthDate.getTime();
+
+            var ageDate = new Date(difference);
+            var calculatedAge = Math.abs(ageDate.getUTCFullYear() - 1970);
+
+            if (calculatedAge <= 18) {
+                alert(`your age is ${calculatedAge} not eligible to vote`)
+            }
+            else {
+                alert(`your age is ${calculatedAge} eligible to vote`)
+            }
+
+        }
+
+    </script>
+
+<button onclick="getCourse()"> click me</button>
+
+<ul id="course">
+    <li>abc</li>
+    <li>def</li>
+    <li>ghi</li>
+    <li>klm</li>
+</ul>
+
+<script>
+    function getCourse(){
+        var res = document.getElementById("course");
+        console.log(res[1]);
+    }
+</script>
+</body>
+
+</html>

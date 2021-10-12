@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROI</title>
+    <link rel="stylesheet" href="../css/ROI.css" />
+    <link rel="stylesheet" href="../css/navbar.css">
+  </head>
+  <body>
+
+    <nav>
+      <div class="navbar">
+          <a href="../html/sort.html">sort</a>
+          <a href="../html/stringCap.html">string Cap</a>
+          <a href="../html/voting.html">Voting</a>
+          <a href="../html/ROI.html">ROI</a>
+          <a href="../html/reverseSrring.html">Reverse string</a>
+          <a href="../html/random.html">Random</a>
+      </div>
+  </nav>
+
+    <div class="container">
+      <!-- <h1>Calculator</h1> -->
+      <div class="details">
+        <div>
+          <label for="">Amount</label>
+          <input
+            type="number"
+            value=""
+            id="pamount"
+            class="box1"
+            placeholder="Enter the prinpal Amount"
+          />
+        </div>
+        <div>
+          <label for="">ROI</label>
+          <input
+            type="number"
+            value=""
+            id="roi"
+            class="box2"
+            placeholder="percentage"
+          />
+        </div>
+        <div>
+          <label for="">Years</label>
+          <input
+            type="number"
+            value=""
+            id="time"
+            class="box3"
+            placeholder="Enter the Time in years"
+          />
+        </div>
+
+        <div>
+          <input
+            type="button"
+            value="Calculate Simple Interest"
+            onclick="calculate()"
+          />
+        </div>
+        <div>
+          <label for="">Simple Interest</label>
+          <!-- <input
+            type="number"
+            value=""
+            id="si"
+            class="box4"
+            placeholder="The Simple interest is"
+          /> -->
+          <p id="si" value=""></p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/ROI.js"></script>
+  </body>
+</html>

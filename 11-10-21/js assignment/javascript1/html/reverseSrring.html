@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css">
+    <title>Reverse String</title>
+  </head>
+
+  <body>
+   
+    <nav>
+      <div class="navbar">
+          <a href="../html/sort.html">sort</a>
+          <a href="../html/stringCap.html">string Cap</a>
+          <a href="../html/voting.html">Voting</a>
+          <a href="../html/ROI.html">ROI</a>
+          <a href="../html/reverseSrring.html">Reverse string</a>
+          <a href="../html/random.html">Random</a>
+      </div>
+  </nav>
+
+    <div>Reverse String</div>
+
+    <script>
+      let str1 = "A B C D E F G H I J K L";
+      let str2 = "";
+      for (var i = str1.length - 1; i >= 0; i--) {
+        str2 += str1.charAt(i);
+      }
+      console.log(str2);
+      document.write(str2);
+    </script>
+  </body>
+</html>
